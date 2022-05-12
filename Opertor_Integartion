@@ -1,0 +1,68 @@
+QUESTIONNAIRE
+	. Company Name 	: 
+	. Brand Name 	: 
+	. Regions 		: 
+	. Wallet 		: 
+	. currencies 	: 
+	. Ori IP for BO : 
+STAGING
+	. Op name 		: 
+	. Code 			: 
+	. Brand 		: 
+	. Connections 	: 
+	. contracts		: 
+	. Test Endpoint : 
+	. Test Server 	: 
+STG TEST
+	. casino	: 
+	. userID	: 
+	. games		: 
+		- [SLOT] 
+		- [SLOT] 
+		- [LIVE] 
+		- [LIVE] 
+	. Fryday	: 
+	. checks	: 
+		? TK_BET > TK_WIN 		: 
+		? SLOT > diff Ops Token	: 
+		? SLOT > =/= round / bet: 
+		? LIVE > same Ops Token : 
+		? LIVE > =/= round / bet: 
+		? Currency 				: 
+		? Balance same on casino: 
+PROD
+	. Op name 		: 
+	. Code 			: 
+	. Brand 		: 
+	. Connections 	: 
+	. contracts		: 
+	. stg public Key: 
+	. Prod Endpoint : 
+	. Prod Server 	: 
+PROD TEST
+	. casino	: 
+	. userID	: 
+	. games		: 
+		- [SLOT] 
+		- [SLOT] 
+		- [LIVE] 
+		- [LIVE] 
+	. currency	: 
+	. checks	: 
+		? TK_BET > TK_WIN 		: 
+		? SLOT > diff Ops Token	: 
+		? SLOT > =/= round / bet: 
+		? LIVE > same Ops Token : 
+		? LIVE > =/= round / bet: 
+		? Currency 				: 
+		? Balance same on casino: 
+	. Fryday	: 
+...............................
+> ticket	: 
+> stg env 	: 
+> Fryday Stg: 
+> stg test 	: 
+> prod env 	:
+> Fryday Pro:  
+> prod test :
+> bus appro : 
